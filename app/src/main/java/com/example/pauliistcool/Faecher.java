@@ -39,7 +39,6 @@ public class Faecher extends AppCompatActivity implements View.OnClickListener {
         }
         if (clicked.getId() == this.Latein.getId()){
 
-
         }
         if (clicked.getId() == this.Physik.getId()){
 
