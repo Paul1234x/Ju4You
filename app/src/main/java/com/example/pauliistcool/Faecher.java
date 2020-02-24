@@ -52,8 +52,5 @@ public class Faecher extends AppCompatActivity implements View.OnClickListener {
 
 
         }
-
     }
-
-
 }
