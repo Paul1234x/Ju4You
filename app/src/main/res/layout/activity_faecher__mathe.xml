@@ -6,49 +6,47 @@
     android:layout_height="match_parent"
     tools:context=".Faecher_Mathe">
 
-    <TableLayout
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical"
         android:layout_width="match_parent"
         android:layout_height="match_parent">
 
-        <TableRow
-            android:layout_width="match_parent"
-            android:layout_height="match_parent">
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:focusableInTouchMode="true">
 
-            <TextView
-                android:id="@+id/textView"
-                android:layout_width="136dp"
+            <EditText
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Name" />
-
-            <TextView
-                android:id="@+id/textView2"
-                android:layout_width="138dp"
+                android:hint="@string/faecher_name"
+                android:id="@+id/editText_Name"
+                android:layout_weight="4" />
+            <EditText
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Klasse" />
+                android:hint="@string/faecher_klasse"
+                android:inputType="number"
+                android:id="@+id/editText_Klasse"
+                android:layout_weight="1" />
 
-            <TextView
-                android:id="@+id/textView3"
-                android:layout_width="136dp"
+            <EditText
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Nummer oder Email" />
+                android:hint="@string/faecher_number"
+                android:id="@+id/editText_Nummer"
+                android:layout_weight="4" />
 
-        </TableRow>
+        </LinearLayout>
 
-        <TableRow
+        <ListView
             android:layout_width="match_parent"
-            android:layout_height="match_parent" />
+            android:layout_height="wrap_content"
+            android:id="@+id/listview_shopping_memos"
+            android:layout_gravity="center_horizontal" />
 
-        <TableRow
-            android:layout_width="match_parent"
-            android:layout_height="match_parent" />
-
-        <TableRow
-            android:layout_width="match_parent"
-            android:layout_height="match_parent" />
-
-        <TableRow
-            android:layout_width="match_parent"
-            android:layout_height="match_parent" />
-    </TableLayout>
-
+    </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>

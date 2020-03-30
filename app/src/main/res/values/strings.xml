@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">Pauliistcool</string>
+
+    <string name="faecher_name">Name</string>
+    <string name="faecher_number">Nummer oder Email</string>
+    <string name="faecher_klasse">Klasse</string>
+
 </resources>
