@@ -24,31 +24,31 @@
         tools:layout_editor_absoluteY="0dp">
 
         <Button
-            android:id="@+id/id_5"
+            android:id="@+id/id-5"
             android:layout_width="match_parent"
             android:layout_height="155dp"
-            android:text="5"
+            android:text="Latein/Italienisch"
             android:textSize="50sp" />
 
         <Button
             android:id="@+id/id_6"
             android:layout_width="match_parent"
             android:layout_height="155dp"
-            android:text="6"
+            android:text="Deutsch"
             android:textSize="50sp" />
 
         <Button
             android:id="@+id/id_7"
             android:layout_width="match_parent"
             android:layout_height="155dp"
-            android:text="7"
+            android:text="Mathe"
             android:textSize="50sp" />
 
         <Button
             android:id="@+id/id_8"
             android:layout_width="match_parent"
             android:layout_height="155dp"
-            android:text="8"
+            android:text="Englisch"
             android:textSize="50sp" />
     </LinearLayout>
 
@@ -64,21 +64,21 @@
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:layout_weight="1"
-            android:text="Button" />
+            android:text="zurück" />
 
         <Button
             android:id="@+id/id_home"
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:layout_weight="1"
-            android:text="Button" />
+            android:text="HOME" />
 
         <Button
             android:id="@+id/id_school"
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:layout_weight="1"
-            android:text="Button" />
+            android:text="School" />
     </LinearLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
