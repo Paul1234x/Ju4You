@@ -12,6 +12,8 @@ import android.widget.ImageButton;
 public class MainActivity extends AppCompatActivity {
 
 
+
+    private Button Faecher;
     private Button bNachhilfe;
     private Button bStundenplan;
     private Button bTexteBeispiele;
@@ -22,7 +24,6 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-
 
 
 
@@ -80,8 +81,7 @@ public class MainActivity extends AppCompatActivity {
 
     private void openFaecher() {
         Intent intent = new Intent(this, Faecher.class);
-        startActivity(intent);
-    }
+        startActivity(intent); }
 
     @Override
     public void onClick(View view) {

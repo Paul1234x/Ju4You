@@ -5,4 +5,9 @@
     <string name="stundenplan">Stundenplan</string>
     <string name="todo">TODO</string>
     <string name="chatroom">Chatroom</string>
+
+    <string name="faecher_name">Name</string>
+    <string name="faecher_number">Nummer oder Email</string>
+    <string name="faecher_klasse">Klasse</string>
+
 </resources>
