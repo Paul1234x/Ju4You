@@ -74,7 +74,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     private void openStundenplan() {
-        Intent browserIntent = new Intent(Intent.ACTION_VIEW,Uri.parse("https://www.brg-judenburg.ac.at/"));
+        Intent browserIntent = new Intent(Intent.ACTION_VIEW,Uri.parse("https://urania.webuntis.com/WebUntis/?school=brg-judenburg#/basic/main"));
         startActivity(browserIntent);
     }
 
@@ -82,9 +82,6 @@ public class MainActivity extends AppCompatActivity {
         Intent intent = new Intent(this, Faecher.class);
         startActivity(intent); }
 
-    @Override
-    public void onClick(View view) {
 
-    }
 }
 
