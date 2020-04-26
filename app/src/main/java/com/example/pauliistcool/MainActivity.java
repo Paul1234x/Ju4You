@@ -13,7 +13,7 @@ public class MainActivity extends AppCompatActivity {
 
 
 
-    private Button Faecher;
+    private Button bFaecher;
     private Button bNachhilfe;
     private Button bStundenplan;
     private Button bTexteBeispiele;
@@ -36,7 +36,6 @@ public class MainActivity extends AppCompatActivity {
             }
 
         });
-
         this.bStundenplan = this.findViewById(R.id.bStundenplan);
         this.bStundenplan = (Button) this.findViewById(R.id.bStundenplan);
         bStundenplan.setOnClickListener(new View.OnClickListener() {
