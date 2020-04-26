@@ -6,6 +6,7 @@ import android.content.Intent;
 import android.net.Uri;
 import android.os.Bundle;
 import android.view.View;
+import android.webkit.WebView;
 import android.widget.Button;
 import android.widget.ImageButton;
 
@@ -63,19 +64,18 @@ public class MainActivity extends AppCompatActivity {
     }
 
     private void openSchullogo() {
-        Uri uri = Uri.parse("https://www.brg-judenburg.ac.at/");
-        Intent intent = new Intent(Intent.ACTION_VIEW, uri);
-        startActivity(intent);
+        Intent browserIntent = new Intent(Intent.ACTION_VIEW,Uri.parse("https://www.brg-judenburg.ac.at/"));
+        startActivity(browserIntent);
     }
 
     private void openTexteBeispiele() {
-        Intent intent = new Intent(this, TexteBeispiele.class);
+        Intent intent = new Intent(this, Faecher.class);
         startActivity(intent);
     }
 
     private void openStundenplan() {
-        Intent intent = new Intent(this, Stundenplan.class);
-        startActivity(intent);
+        Intent browserIntent = new Intent(Intent.ACTION_VIEW,Uri.parse("https://www.brg-judenburg.ac.at/"));
+        startActivity(browserIntent);
     }
 
     private void openFaecher() {
