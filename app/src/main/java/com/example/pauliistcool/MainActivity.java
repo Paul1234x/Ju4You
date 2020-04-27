@@ -19,6 +19,7 @@ public class MainActivity extends AppCompatActivity {
     private Button bStundenplan;
     private Button bTexteBeispiele;
     private ImageButton ibSchullogo;
+    private Button bLogin;
 
 
     @Override
@@ -35,7 +36,6 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View view) {
                 openFaecher();
             }
-
         });
         this.bStundenplan = this.findViewById(R.id.bStundenplan);
         this.bStundenplan = (Button) this.findViewById(R.id.bStundenplan);
@@ -61,6 +61,15 @@ public class MainActivity extends AppCompatActivity {
                 openSchullogo();
             }
         });
+        this.bLogin = this.findViewById(R.id.bLogin);
+        this.bLogin = (Button) this.findViewById(R.id.bLogin);
+        bLogin.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                openActivityLOGIN();
+            }
+
+        });
     }
 
     private void openSchullogo() {
@@ -82,6 +91,8 @@ public class MainActivity extends AppCompatActivity {
         Intent intent = new Intent(this, Faecher.class);
         startActivity(intent); }
 
-
+    private void openActivityLOGIN() {
+        Intent intent = new Intent(this, ActivitiyLOGIN.class);
+        startActivity(intent);
+    }
 }
-

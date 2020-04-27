@@ -11,7 +11,13 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         tools:ignore="GoogleAppIndexingWarning">
-        <activity android:name=".Faecher_Physik"></activity>
+        <activity android:name=".ActivityREGISTER"></activity>
+        <activity android:name=".ActivitiyLOGIN" />
+        <activity android:name=".Register" />
+        <activity
+            android:name=".ui.login.LoginActivity"
+            android:label="@string/title_activity_login" />
+        <activity android:name=".Faecher_Physik" />
         <activity android:name=".Faecher_Latein" />
         <activity android:name=".Faecher_Mathe" />
         <activity android:name=".NamenMathe" />
