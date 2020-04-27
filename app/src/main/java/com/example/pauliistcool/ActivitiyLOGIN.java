@@ -15,8 +15,8 @@ public class ActivitiyLOGIN extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_activitiy_login);
-        this.bREGISTER = this.findViewById(R.id.bStundenplan);
-        this.bREGISTER = (Button) this.findViewById(R.id.bStundenplan);
+        this.bREGISTER = this.findViewById(R.id.bREGISTER);
+        this.bREGISTER = (Button) this.findViewById(R.id.bREGISTER);
         bREGISTER.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -25,7 +25,7 @@ public class ActivitiyLOGIN extends AppCompatActivity {
         });
     }
     private void openActivityREGISTER() {
-        Intent intent = new Intent(this, ActivitiyLOGIN.class);
+        Intent intent = new Intent(this, ActivityREGISTER.class);
         startActivity(intent);
     }
 }
