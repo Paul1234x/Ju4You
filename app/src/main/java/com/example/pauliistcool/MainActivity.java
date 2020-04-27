@@ -21,7 +21,6 @@ public class MainActivity extends AppCompatActivity {
     private ImageButton ibSchullogo;
     private Button bLogin;
 
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
